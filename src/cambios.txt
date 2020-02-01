@@ -1,0 +1,22 @@
+Vicentiu Tiberius Roman
+
+Ejercicio 3
+-Creada clase SniperCommand en pr2.Game.Controller.Command
+-2 Excepciones creadas NothingToKill y CanNotShoot
+-Metodo snipe en game y en player
+-Metodo receiveSniperAtack en interfaz IAttack
+-Metodo receiveSniperAtack en AlienShip
+
+-Metodo refresh en Game y en GameObjectBoard(Para actualizar los objetos muertos sin pasar de ciclo)
+
+*Si le pasas el daño 0 simplemente se cambia por una explosive ship
+
+Ejercicio 4
+-Creada clase SmartBomb
+-Creado metodo initializeBomb en la clase BoardInitializer
+-Creado atributo numSmartBombs en level
+-Creado metodo nuevo en interfaz IExecuteRandomActions
+-Añadido SmartBomb a objectGenerator
+-Añadido verifySmartBomb en FileContentsVerifier
+
+*Bomba no recibe daño de smartBomb
